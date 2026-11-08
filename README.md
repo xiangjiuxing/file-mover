@@ -69,7 +69,7 @@ python -m pip install pyinstaller
 python -m PyInstaller --noconfirm --clean --onefile --windowed --name FileMover --icon icon.ico --add-data "icon.ico;." --add-data "icon_ui.png;." --collect-all tkinterdnd2 --collect-all PIL app.py
 ```
 
-> 本仓库**只保存源码，不纳入二进制 EXE**（`.gitignore` 已排除）。免安装包请从 [v2.3.0 Release](https://github.com/xiangjiuxing/file-mover/releases/tag/v2.3.0) 下载 `文件搬运工具.exe`（约 23 MB，双击即用，无需 Python）；也可按上面的命令自行生成。
+> 本仓库**只保存源码，不纳入二进制 EXE**（`.gitignore` 已排除）。免安装包请从 [v2.3.0 Release](https://github.com/xiangjiuxing/file-mover/releases/tag/v2.3.0) 下载 `FileMover-v2.3.0-Windows-x64.exe`（约 23 MB，双击即用，无需 Python，下载后可随意改名）；也可按上面的命令自行生成。
 >
 > `app.py` 通过 `resource_path()` 从**自身所在目录**读取 `icon.ico` / `icon_ui.png`，因此主程序与图标文件必须保持同级，请勿擅自拆分目录，否则源码运行与打包都会找不到资源。
 
