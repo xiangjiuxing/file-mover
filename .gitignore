@@ -1,0 +1,43 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+_build/
+*.spec
+
+# ---- Build artifacts ----
+# Prebuilt binaries are distributed via Releases, not tracked in Git.
+*.exe
+*.msi
+*.dll
+
+# ---- Runtime files created next to app.py ----
+# These may contain private local paths / personal file names. Never commit.
+常用目标.json
+搬运日志.txt
+错误日志.txt
+上次检查.txt
+
+# ---- Local-only backups and scratch data ----
+旧版本备份/
+_预览数据/
+_patch*.py
+_patch*.py.bak
+_selftest*.py
+_capture.py
+_verify_exe.py
+_dbg.py
+_dbg*.png
+_按钮边缘_*.png
+
+# ---- OS / editor ----
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
